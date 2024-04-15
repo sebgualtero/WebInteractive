@@ -1,0 +1,340 @@
+/****************** YOUR NAME: 
+
+Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
+
+The instructions describe the missing styling and layout that is needed; you will translate these into CSS declarations in the places indicated.
+
+*/
+
+/****************** page defaults ******************/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.fixed-width {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none; /* hides elements that are needed for DOM */
+}
+
+.flex {
+    display: flex; 
+}
+
+/****************** typography ******************/
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+/***  INSTRUCTIONS:
+
+- 1st level headings will be 32px.
+- 2nd level headings will be 24px.
+- 3rd level headings will be 18px and bold.
+- All footer text will be 12px.
+- Anchors will not be underlined until we hover over them.
+- Anchors in the header will be black.
+- There will be 15px of space under 2nd level headings and paragraphs.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+header {
+    background-color: #c74365;
+    padding: 30px 0;
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    line-height: 50px;
+    font-size: 50px;
+}
+
+header a {
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.fixed-width-flex {
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    width: 600px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: auto
+}
+
+header li {
+    list-style-type: none;
+    text-decoration: none;
+    align-items: end;
+}
+
+main {
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #c74365;
+    padding: 30px 0;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p, h2 {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/****************** home page layout ******************/
+
+article {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+/****************** profile page layout ******************/
+.wide-column {
+    width: 900px;
+}
+
+
+.fixed-width-profile {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+.fleximage {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    height: 200px;
+    padding: 10px;
+}
+
+.fleximage img {
+    width: 140px;
+    height: 200px;
+}
+
+.labels p {
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.light-backgroundnarrow-column {
+    background-color: lightgray;
+    height: 140px;
+    margin-top: 30px;
+    padding: 25px
+}
+section .wide-column {
+    background-color: black;
+    height: 80px;
+}
+
+div .flex div img {
+    width: 20px;
+    height: 200px;
+}
+/****************** form layout ******************/
+
+form {
+    margin: 45px 0;
+}
+
+.formflex {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100px;
+}
+
+
+button {
+    height: 21px;
+    width: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 500px;
+
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/****************** media queries ******************/
+
+
+
+
+
+
+/****************** site-wide styling ******************/
+
+
+
+
+/***  INSTRUCTIONS:
+
+- The header and footer will be #c74365.
+- There will be 30px of space between the header and the main, and between the main and the footer.
+- Anchors in the header will be 18px.
+- The logo in the header will be 30px tall and wide, with 10px of space on all sides.
+- The top-level heading and the links in the header will have a line-height of 50px to center them within the header.
+- There will be enough space between the page heading and the links so the last link is flush with the edge of the page. (HINT: Guess-and-check method can be useful here!)
+- There will be 15px of space between each link.
+- The text in the footer will be centered, with 15px of space between the content and the edge of the footer.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+
+
+
+/****************** home page styling ******************/
+
+/***  INSTRUCTIONS:
+- Everything in the "italics" class will be italicized.
+- Each article will have a background colour of lightgray, space between content and border of 15px, and 15px of space around the element on each side.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+
+
+/****************** profile page styling ******************/
+
+/***  INSTRUCTIONS:
+- The wide column will be 420px wide.
+- The narrow column will be 180px wide.
+- The profile picture will be 120px wide.
+- The labels div will be bold, and 70px wide. Text will be aligned to the right.
+- There will be 15px of space on the right side of the labels div.
+- The light-background class will have a background colour of lightgray, a height of 140px, and will be shifted down by 30px.
+- The 2nd level heading within the light-backgroun will be shifted down 10px, and have 15px of space on its left and below.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
+
+
+/****************** form styling ******************/
+
+/***  INSTRUCTIONS:
+- The form will have 45px of space above and below.
+- Labels will have a display property of block, be bold, and centered.
+- Input fields will be 100px wide.
+- There will be 15px of space between each day.
+- The button will be 21px tall and the same width as the input boxes (HINT: use the element inspector in your browser).
+- There will be 30px of space above the button, and as much space as needed on the left so that the edge of the button is flush with the fixed width container. (HINT: remember the width of the fixed-width container.)
+- The button will have a 1px solid grey border and have a white background, which will change to grey when we hover over it.
+- The border will have a border-radius set to 4px.
+- The button will use the same font as the body.
+*/
+
+/*** INSERT YOUR WORK BELOW: ***/
+
+
+
+
